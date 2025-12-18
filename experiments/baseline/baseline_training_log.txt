@@ -1,0 +1,123 @@
+/common/home/yz1391/anaconda3/lib/python3.10/site-packages/pandas/core/arrays/masked.py:60: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.5' currently installed).
+  from pandas.core import (
+======================================================================
+BASELINE TRAINING - IPYNB EXACT REPLICA WITH AUTO-CONVERGENCE
+======================================================================
+Start time: 2025-12-15 12:35:05
+
+Loading dataset...
+Training samples: 470, Test samples: 118
+
+Loading SAM2 model...
+
+Starting baseline training...
+Max steps: 20000
+Convergence patience: 2000 steps
+Check window: 500 steps
+======================================================================
+Step 100: LR = 0.000100, IoU = 0.111998, Seg Loss = 0.066116
+Step 200: LR = 0.000100, IoU = 0.291805, Seg Loss = 0.084779
+Step 300: LR = 0.000100, IoU = 0.428028, Seg Loss = 0.164394
+Step 400: LR = 0.000100, IoU = 0.515840, Seg Loss = 0.106526
+Step 500: LR = 0.000100, IoU = 0.534024, Seg Loss = 0.069600
+  [Convergence] New best IoU: 0.327410
+Step 600: LR = 0.000100, IoU = 0.572610, Seg Loss = 0.287137
+Step 700: LR = 0.000100, IoU = 0.596502, Seg Loss = 0.084458
+Step 800: LR = 0.000100, IoU = 0.614502, Seg Loss = 0.100252
+Step 900: LR = 0.000100, IoU = 0.616101, Seg Loss = 0.107274
+Step 1000: LR = 0.000100, IoU = 0.625603, Seg Loss = 0.710017
+  [Convergence] New best IoU: 0.596718
+Step 1100: LR = 0.000100, IoU = 0.612475, Seg Loss = 0.178892
+Step 1200: LR = 0.000060, IoU = 0.611594, Seg Loss = 0.284132
+Step 1300: LR = 0.000060, IoU = 0.626760, Seg Loss = 0.298438
+Step 1400: LR = 0.000060, IoU = 0.647404, Seg Loss = 0.612242
+Step 1500: LR = 0.000060, IoU = 0.632774, Seg Loss = 0.050371
+  [Convergence] New best IoU: 0.625822
+Step 1600: LR = 0.000060, IoU = 0.659103, Seg Loss = 0.096453
+Step 1700: LR = 0.000060, IoU = 0.629060, Seg Loss = 0.286909
+Step 1800: LR = 0.000060, IoU = 0.669736, Seg Loss = 0.327590
+Step 1900: LR = 0.000060, IoU = 0.643141, Seg Loss = 0.530845
+Step 2000: LR = 0.000060, IoU = 0.666155, Seg Loss = 0.231714
+  [Convergence] New best IoU: 0.649039
+Step 2100: LR = 0.000060, IoU = 0.662034, Seg Loss = 0.171243
+Step 2200: LR = 0.000060, IoU = 0.690072, Seg Loss = 0.150591
+Step 2300: LR = 0.000060, IoU = 0.666991, Seg Loss = 0.099853
+Step 2400: LR = 0.000036, IoU = 0.659317, Seg Loss = 0.027097
+Step 2500: LR = 0.000036, IoU = 0.676026, Seg Loss = 0.080093
+  [Convergence] New best IoU: 0.672135
+Step 2600: LR = 0.000036, IoU = 0.672271, Seg Loss = 0.145389
+Step 2700: LR = 0.000036, IoU = 0.660832, Seg Loss = 0.039894
+Step 2800: LR = 0.000036, IoU = 0.669457, Seg Loss = 0.112285
+Step 2900: LR = 0.000036, IoU = 0.680911, Seg Loss = 0.006135
+Step 3000: LR = 0.000036, IoU = 0.704609, Seg Loss = 0.260645
+  [Convergence] New best IoU: 0.673282
+Step 3100: LR = 0.000036, IoU = 0.683808, Seg Loss = 0.204458
+Step 3200: LR = 0.000036, IoU = 0.678264, Seg Loss = 0.065946
+Step 3300: LR = 0.000036, IoU = 0.682895, Seg Loss = 0.011815
+Step 3400: LR = 0.000036, IoU = 0.679825, Seg Loss = 0.511553
+Step 3500: LR = 0.000036, IoU = 0.683979, Seg Loss = 0.279747
+  [Convergence] New best IoU: 0.685845
+Step 3600: LR = 0.000022, IoU = 0.683687, Seg Loss = 0.076205
+Step 3700: LR = 0.000022, IoU = 0.669682, Seg Loss = 0.706769
+Step 3800: LR = 0.000022, IoU = 0.688322, Seg Loss = 0.089698
+Step 3900: LR = 0.000022, IoU = 0.685979, Seg Loss = 0.108649
+Step 4000: LR = 0.000022, IoU = 0.681380, Seg Loss = 0.278129
+  [Convergence] No improvement for 500 steps (best: 0.685845)
+Step 4100: LR = 0.000022, IoU = 0.664577, Seg Loss = 0.160477
+Step 4200: LR = 0.000022, IoU = 0.684039, Seg Loss = 0.105847
+Step 4300: LR = 0.000022, IoU = 0.674103, Seg Loss = 0.062341
+Step 4400: LR = 0.000022, IoU = 0.687739, Seg Loss = 0.015127
+Step 4500: LR = 0.000022, IoU = 0.680999, Seg Loss = 0.064299
+  [Convergence] No improvement for 1000 steps (best: 0.685845)
+Step 4600: LR = 0.000022, IoU = 0.702211, Seg Loss = 0.053172
+Step 4700: LR = 0.000022, IoU = 0.693573, Seg Loss = 0.064956
+Step 4800: LR = 0.000013, IoU = 0.675770, Seg Loss = 0.167660
+Step 4900: LR = 0.000013, IoU = 0.682423, Seg Loss = 0.061991
+Step 5000: LR = 0.000013, IoU = 0.683231, Seg Loss = 0.455206
+  [Convergence] New best IoU: 0.691181
+Step 5100: LR = 0.000013, IoU = 0.699506, Seg Loss = 0.028226
+Step 5200: LR = 0.000013, IoU = 0.695890, Seg Loss = 0.167484
+Step 5300: LR = 0.000013, IoU = 0.718784, Seg Loss = 0.245825
+Step 5400: LR = 0.000013, IoU = 0.708583, Seg Loss = 0.033904
+Step 5500: LR = 0.000013, IoU = 0.700439, Seg Loss = 0.065906
+  [Convergence] New best IoU: 0.701453
+Step 5600: LR = 0.000013, IoU = 0.697973, Seg Loss = 0.079618
+Step 5700: LR = 0.000013, IoU = 0.704879, Seg Loss = 0.114504
+Step 5800: LR = 0.000013, IoU = 0.707083, Seg Loss = 0.141600
+Step 5900: LR = 0.000013, IoU = 0.702338, Seg Loss = 0.082049
+Step 6000: LR = 0.000008, IoU = 0.689408, Seg Loss = 0.020345
+  [Convergence] No improvement for 500 steps (best: 0.701453)
+Step 6100: LR = 0.000008, IoU = 0.686559, Seg Loss = 0.050935
+Step 6200: LR = 0.000008, IoU = 0.677133, Seg Loss = 0.194765
+Step 6300: LR = 0.000008, IoU = 0.703142, Seg Loss = 0.219944
+Step 6400: LR = 0.000008, IoU = 0.704307, Seg Loss = 0.132042
+Step 6500: LR = 0.000008, IoU = 0.701212, Seg Loss = 0.177859
+  [Convergence] No improvement for 1000 steps (best: 0.701453)
+Step 6600: LR = 0.000008, IoU = 0.701294, Seg Loss = 0.126896
+Step 6700: LR = 0.000008, IoU = 0.698640, Seg Loss = 0.163924
+Step 6800: LR = 0.000008, IoU = 0.698163, Seg Loss = 0.001654
+Step 6900: LR = 0.000008, IoU = 0.699286, Seg Loss = 0.005249
+Step 7000: LR = 0.000008, IoU = 0.672186, Seg Loss = 1.022202
+  [Convergence] No improvement for 1500 steps (best: 0.701453)
+Step 7100: LR = 0.000008, IoU = 0.698388, Seg Loss = 0.010204
+Step 7200: LR = 0.000005, IoU = 0.702345, Seg Loss = 0.005255
+Step 7300: LR = 0.000005, IoU = 0.690850, Seg Loss = 0.054018
+Step 7400: LR = 0.000005, IoU = 0.707500, Seg Loss = 0.091544
+Step 7500: LR = 0.000005, IoU = 0.696126, Seg Loss = 0.117949
+  [Convergence] No improvement for 2000 steps (best: 0.701453)
+
+======================================================================
+CONVERGENCE DETECTED!
+Best IoU: 0.701453
+No improvement for 2000 steps
+======================================================================
+
+
+Training converged at step 7500
+Final model saved: ../../models/baseline/baseline_sam2_final_7500.pt
+
+Training log saved: ../../results/baseline_training_log.json
+End time: 2025-12-15 12:45:56
+======================================================================
+BASELINE TRAINING COMPLETED!
+======================================================================
